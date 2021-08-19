@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/lightblue"
+    tools:context=".Pregnancyhealth">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregnancy donts"
+        android:textSize="30dp"
+        android:textColor="#090909"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Alcohol"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="gravity"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Alcohol consumption especially during first and second trimester greatly
+        affects fetal development and cause long term birth defects particularly fetal
+         Alcohol Syndrome."
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Smoking"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="smoking causes low birth weight of the fetal and it causes complications like
+placenta abruption, preterm labour and other complications during pregnancy."
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Medications"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="gravity"
+        />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medications such as tetracycline cause birth defects.It is therefore important
+to see your doctor before taking any medication."
+                android:textSize="10dp"
+                android:textColor="#101010"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="70dp"
+                android:textAlignment="gravity"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregnancy tests"
+        android:textSize="30dp"
+        android:textColor="#090909"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="gravity"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.How often should should i test?"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="gravity"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/test"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Where can i buy a pregnancy test from?"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="They are widely available in chemist shops/clinics and supermarkets.You can also buy them online."
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="gravity"
+        />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregnancy and STDs"
+        android:textSize="30dp"
+        android:textColor="#090909"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you are pregnant and have an STD, you may infect your baby.Therefore every pregnant woman should be checked."
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Common STDs"
+        android:textSize="20dp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Genital Herps"
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Gonorrhea"
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Hepatitis B"
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.HIV/AIDS"
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get tested to know your status."
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treatment.Many STDs can be treated and cured with antibiotics.Your doctor can recommend medicines tht are safe to take while pregnant.Make sure you finish your dose and do not share your medicine."
+        android:textSize="10dp"
+        android:textColor="#101010"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"
+        android:textAlignment="gravity"
+        />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+      </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

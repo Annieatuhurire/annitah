@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Growth">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Growth and developments in week 12"
+                android:textSize="30dp"
+                android:textColor="#090909"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:textAlignment="gravity"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baby size: 2.5 inches and Baby weight:|0.3 to 0.5 ounces"
+                android:textSize="20dp"
+                android:textColor="#090909"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="gravity"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WEEK 27"
+                android:textSize="10dp"
+                android:textColor="#2196F3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="70dp"
+                android:textAlignment="gravity"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baby size: 14.41 inches"
+                android:textSize="20dp"
+                android:textColor="#101010"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:textAlignment="gravity"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

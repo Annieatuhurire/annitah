@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Details to Register"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF216EF3"
+        />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/lightgreen"
+        android:hint="Enter firstname"
+        android:inputType="text"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:layout_marginTop="30dp"
+        android:hint="Enter lastname"
+        android:textColorHint="@color/lightgreen"
+        android:inputType="text"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lname"
+        android:layout_marginTop="30dp"
+        android:hint="Enter date of birth"
+        android:textColorHint="@color/lightgreen"
+        android:inputType="date"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="30dp"
+        android:hint="Create password"
+        android:textColorHint="@color/lightgreen"
+        android:inputType="numberPassword"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/conf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="30dp"
+        android:hint="Confirm password"
+        android:textColorHint="@color/lightgreen"
+        android:inputType="numberPassword"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="10dp"
+        android:layout_below="@+id/conf"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="220dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>
